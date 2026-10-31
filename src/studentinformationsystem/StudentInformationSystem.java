@@ -1,20 +1,26 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package studentinformationsystem;
-
-/**
- *
- * @author pc
- */
 public class StudentInformationSystem {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        System.out.println("Nor Laila Shahirah");
+        System.out.println("Student ID:S85510");
+        
+        double mark1=42.5;
+        double mark2=45.0;
+        double totalMark= mark1+ mark2;
+        
+        System.out.println("Total Mark:"+ totalMark);
+        
+        if (totalMark >= 80){
+            System.out.println("Result Message:Excellent");
+        }else if  (totalMark >= 50){
+            System.out.println("Result Message:Good");
+        }else{
+            System.out.println("Result Message:Needs Improvement");
+           
+            
+        }
     }
     
 }
